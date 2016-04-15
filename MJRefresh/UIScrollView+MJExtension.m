@@ -12,12 +12,6 @@
 
 @implementation UIScrollView (MJExtension)
 
-- (void)setMj_insetT:(CGFloat)mj_insetT
-{
-    UIEdgeInsets inset = self.contentInset;
-    inset.top = mj_insetT;
-    self.contentInset = inset;
-}
 
 - (CGFloat)mj_insetT
 {
